@@ -6,6 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		395118072E7F37240002CE6A /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395118062E7F37240002CE6A /* LibraryView.swift */; };
+		395118092E7F372D0002CE6A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395118082E7F372D0002CE6A /* HeaderView.swift */; };
+		3951180B2E7F37370002CE6A /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3951180A2E7F37370002CE6A /* SidebarView.swift */; };
+		3951180D2E7F373D0002CE6A /* LocationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3951180C2E7F373D0002CE6A /* LocationRow.swift */; };
+		3951180F2E7F37410002CE6A /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3951180E2E7F37410002CE6A /* MapAnnotationView.swift */; };
+		398FB9902E84326600E6BC68 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398FB98F2E84326600E6BC68 /* EventsView.swift */; };
+		398FB9942E8436B900E6BC68 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398FB9932E8436B900E6BC68 /* ModelData.swift */; };
+		398FB9962E8436C900E6BC68 /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 398FB9952E8436C900E6BC68 /* events.json */; };
+		398FB9982E8436F300E6BC68 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398FB9972E8436F300E6BC68 /* Event.swift */; };
+		398FB99A2E84370F00E6BC68 /* AssignmentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398FB9992E84370F00E6BC68 /* AssignmentModels.swift */; };
+		39D93CF62E7B578500646477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D93CF32E7B578500646477 /* ContentView.swift */; };
+		39D93CF72E7B578500646477 /* FieldOps_UI_Playground_iPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D93CF42E7B578500646477 /* FieldOps_UI_Playground_iPadApp.swift */; };
+		39D93CF82E7B578500646477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D93CF22E7B578500646477 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		39D93CD62E7B572000646477 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,17 +40,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		395118062E7F37240002CE6A /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		395118082E7F372D0002CE6A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3951180A2E7F37370002CE6A /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		3951180C2E7F373D0002CE6A /* LocationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRow.swift; sourceTree = "<group>"; };
+		3951180E2E7F37410002CE6A /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		398FB98F2E84326600E6BC68 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		398FB9932E8436B900E6BC68 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		398FB9952E8436C900E6BC68 /* events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
+		398FB9972E8436F300E6BC68 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		398FB9992E84370F00E6BC68 /* AssignmentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentModels.swift; sourceTree = "<group>"; };
 		39D93CC82E7B571F00646477 /* FieldOps UI Playground iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FieldOps UI Playground iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D93CD52E7B572000646477 /* FieldOps UI Playground iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FieldOps UI Playground iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D93CDF2E7B572000646477 /* FieldOps UI Playground iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FieldOps UI Playground iPadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D93CF22E7B578500646477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39D93CF32E7B578500646477 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39D93CF42E7B578500646477 /* FieldOps_UI_Playground_iPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldOps_UI_Playground_iPadApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		39D93CCA2E7B571F00646477 /* FieldOps UI Playground iPad */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "FieldOps UI Playground iPad";
-			sourceTree = "<group>";
-		};
 		39D93CD82E7B572000646477 /* FieldOps UI Playground iPadTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "FieldOps UI Playground iPadTests";
@@ -72,10 +96,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		398FB98E2E84324800E6BC68 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				398FB98F2E84326600E6BC68 /* EventsView.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		398FB9922E84368900E6BC68 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				398FB9932E8436B900E6BC68 /* ModelData.swift */,
+				398FB9952E8436C900E6BC68 /* events.json */,
+				398FB9972E8436F300E6BC68 /* Event.swift */,
+				398FB9992E84370F00E6BC68 /* AssignmentModels.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		39D93CBF2E7B571F00646477 = {
 			isa = PBXGroup;
 			children = (
-				39D93CCA2E7B571F00646477 /* FieldOps UI Playground iPad */,
+				39D93CF52E7B578500646477 /* FieldOps UI Playground iPad */,
 				39D93CD82E7B572000646477 /* FieldOps UI Playground iPadTests */,
 				39D93CE22E7B572000646477 /* FieldOps UI Playground iPadUITests */,
 				39D93CC92E7B571F00646477 /* Products */,
@@ -92,6 +135,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		39D93CF52E7B578500646477 /* FieldOps UI Playground iPad */ = {
+			isa = PBXGroup;
+			children = (
+				39D93CF22E7B578500646477 /* Assets.xcassets */,
+				39D93CF42E7B578500646477 /* FieldOps_UI_Playground_iPadApp.swift */,
+				39D93CF32E7B578500646477 /* ContentView.swift */,
+				398FB98E2E84324800E6BC68 /* Events */,
+				395118062E7F37240002CE6A /* LibraryView.swift */,
+				395118082E7F372D0002CE6A /* HeaderView.swift */,
+				3951180A2E7F37370002CE6A /* SidebarView.swift */,
+				3951180C2E7F373D0002CE6A /* LocationRow.swift */,
+				3951180E2E7F37410002CE6A /* MapAnnotationView.swift */,
+				398FB9922E84368900E6BC68 /* Data */,
+			);
+			path = "FieldOps UI Playground iPad";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +166,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				39D93CCA2E7B571F00646477 /* FieldOps UI Playground iPad */,
 			);
 			name = "FieldOps UI Playground iPad";
 			packageProductDependencies = (
@@ -212,6 +269,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398FB9962E8436C900E6BC68 /* events.json in Resources */,
+				39D93CF82E7B578500646477 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +295,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398FB99A2E84370F00E6BC68 /* AssignmentModels.swift in Sources */,
+				39D93CF62E7B578500646477 /* ContentView.swift in Sources */,
+				395118072E7F37240002CE6A /* LibraryView.swift in Sources */,
+				398FB9942E8436B900E6BC68 /* ModelData.swift in Sources */,
+				3951180B2E7F37370002CE6A /* SidebarView.swift in Sources */,
+				398FB9982E8436F300E6BC68 /* Event.swift in Sources */,
+				398FB9902E84326600E6BC68 /* EventsView.swift in Sources */,
+				39D93CF72E7B578500646477 /* FieldOps_UI_Playground_iPadApp.swift in Sources */,
+				395118092E7F372D0002CE6A /* HeaderView.swift in Sources */,
+				3951180D2E7F373D0002CE6A /* LocationRow.swift in Sources */,
+				3951180F2E7F37410002CE6A /* MapAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

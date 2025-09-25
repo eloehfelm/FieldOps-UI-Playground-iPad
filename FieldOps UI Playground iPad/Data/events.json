@@ -1,0 +1,2317 @@
+[
+    {
+        "date": "2025-12-29T00:00:00Z",
+        "group": [
+            {
+                "id": 1,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2025-12-30T00:00:00Z",
+        "group": [
+            {
+                "id": 1,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2025-12-29T00:00:00Z",
+        "group": [
+            {
+                "id": 1,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2025-12-31T00:00:00Z",
+        "group": [
+            {
+                "id": 1,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Annual Safety Drill",
+                "author": "Jane Doe",
+                "timeEdited": "2025-05-08T14:30:00Z",
+                "timeFrom": "2025-06-01T09:00:00Z",
+                "timeTo": "2025-06-01T15:00:00Z",
+                "ocn": "OCN-4521",
+                "organizations": [
+                    {
+                        "id": 101,
+                        "name": "LASD"
+                    },
+                    {
+                        "id": 102,
+                        "name": "LAPD"
+                    },
+                    {
+                        "id": 103,
+                        "name": "LA Fire"
+                    }
+                ],
+                "status": "green",
+                "assignments": [
+                    {
+                        "name": "Situation Unit Leader",
+                        "branch": "Planning",
+                        "division": "Red",
+                        "group": "Situation Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "ASSIGNMENT INSTRUCTIONS",
+                                "content": "As the Situation Unit Leader, you are responsible for the supervision of all dispatchers and intelligence units. You should work with your personnel to monitor all field operations and be ready to provide situational updates to the Incident Commanders as necessary."
+                            }
+                        ],
+                        "personnelTypes": ["Lieutenant", "Supervisor"],
+                        "location": "MACC Building",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Radio", "Computer Terminal", "Phone"],
+                        "mobTime": "0800",
+                        "supervisor": null,
+                        "directReports": ["Intelligence Unit", "Communications Unit"],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Red Frank Sam",
+                                "firstName": "William",
+                                "lastName": "Smith",
+                                "rank": "Lieutenant",
+                                "badgeNumber": "123456789",
+                                "phoneNumber": "987-654-3210",
+                                "specializations": ["ICS-100", "ICS-200", "Crisis Management"],
+                                "mobTime": "1400",
+                                "checkInTime": "1350",
+                                "demobTime": "0400",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Traffic Control Alpha",
+                        "branch": "Operations",
+                        "division": "Gold",
+                        "group": "Traffic Unit",
+                        "category": "individual",
+                        "instructions": [
+                            {
+                                "title": "TRAFFIC CONTROL INSTRUCTIONS",
+                                "content": "Control traffic flow at intersection Alpha-1. Maintain clear emergency vehicle access and coordinate with adjacent control points."
+                            }
+                        ],
+                        "personnelTypes": ["Deputy", "Traffic Officer"],
+                        "location": "Colorado Blvd & Fair Oaks Ave",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1477, "longitude": -118.1501},
+                            "southWest": {"latitude": 34.1457, "longitude": -118.1521}
+                        },
+                        "assignmentEquipment": ["Traffic Cones", "Radio", "Reflective Vest"],
+                        "mobTime": "0600",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Blue Charlie Two",
+                                "firstName": "Maria",
+                                "lastName": "Rodriguez",
+                                "rank": "Deputy",
+                                "badgeNumber": "987654321",
+                                "phoneNumber": "555-123-4567",
+                                "specializations": ["Traffic Control", "Emergency Response"],
+                                "mobTime": "0600",
+                                "checkInTime": "0545",
+                                "demobTime": "1800",
+                                "status": "checked_in"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Medical Unit",
+                        "branch": "Operations",
+                        "division": "Green",
+                        "group": "Medical Team",
+                        "category": "group",
+                        "instructions": [
+                            {
+                                "title": "MEDICAL TEAM INSTRUCTIONS",
+                                "content": "Provide emergency medical services along the parade route. Maintain ambulance readiness and coordinate with local hospitals."
+                            }
+                        ],
+                        "personnelTypes": ["Paramedic", "EMT", "Medical Supervisor"],
+                        "location": "Medical Station 1 - City Hall",
+                        "assignmentBoundary": {
+                            "northEast": {"latitude": 34.1567, "longitude": -118.1311},
+                            "southWest": {"latitude": 34.1467, "longitude": -118.1411}
+                        },
+                        "assignmentEquipment": ["Ambulance", "Medical Kit", "Stretchers"],
+                        "mobTime": "0700",
+                        "supervisor": "Operations Section Chief",
+                        "directReports": [],
+                        "assignedPersonnel": [
+                            {
+                                "assignmentName": "Green Medical One",
+                                "firstName": "David",
+                                "lastName": "Johnson",
+                                "rank": "Paramedic",
+                                "badgeNumber": "456789123",
+                                "phoneNumber": "555-987-6543",
+                                "specializations": ["Advanced Life Support", "Trauma Care"],
+                                "mobTime": "0700",
+                                "checkInTime": "0655",
+                                "demobTime": "1900",
+                                "status": "mobilized"
+                            },
+                            {
+                                "assignmentName": "Green Medical Two",
+                                "firstName": "Sarah",
+                                "lastName": "Williams",
+                                "rank": "EMT",
+                                "badgeNumber": "789123456",
+                                "phoneNumber": "555-246-8135",
+                                "specializations": ["Basic Life Support", "Patient Transport"],
+                                "mobTime": "0700",
+                                "checkInTime": "0700",
+                                "demobTime": "1900",
+                                "status": "assigned"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

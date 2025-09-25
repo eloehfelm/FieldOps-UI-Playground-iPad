@@ -6,16 +6,52 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            EventsView()
+                .tabItem {
+                    Label("Events", systemImage: "square.grid.2x2")
+                }
+            
+            LibraryView()
+                .tabItem {
+                    Label("Library", systemImage: "photo.on.rectangle.angled")
+                }
+            
+            VStack(spacing: 24) {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                
+                HStack {
+                    Text("Title 3")
+                    Text("Events > SoFi Stadium")
+                        .font(.title3)
+                        .bold()
+                }
+                
+                HStack {
+                    Text("Title 2")
+                    Text("Events > SoFi Stadium")
+                        .font(.title2)
+                        .bold()
+                }
+                
+                HStack {
+                    Text("Title 1")
+                    Text("Events > SoFi Stadium")
+                        .font(.title)
+                        .bold()
+                }
+            }
+            .padding()
+            .tabItem {
+                Label("Settings", systemImage: "gear")
+            }
         }
-        .padding()
     }
 }
 
