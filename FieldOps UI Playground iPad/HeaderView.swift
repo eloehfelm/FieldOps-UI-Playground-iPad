@@ -28,72 +28,47 @@ struct HeaderView: View {
             Spacer()
             
             // Right side - Buttons
-            HStack(spacing: 12) {
+            HStack(spacing: 16) {
                 // CommandAssist button
-                Button(action: {
-                    // CommandAssist action
-                }) {
-                    HStack(spacing: 4) {
-                        Image(systemName: "waveform.and.mic")
-                            .font(.system(size: 15, weight: .regular))
-                        Text("CommandAssist1")
-                            .font(.system(size: 15, weight: .regular))
-                    }
-                    .foregroundColor(.white)
-                    .padding(.horizontal, 14)
-                    .padding(.vertical, 7)
-                    .background(Color.blue)
-                    .clipShape(Capsule())
-                }
-                
-                Button("CommandAssist2") {
-                    // action here
-                }
-                .buttonStyle(.borderedProminent)
-                
                 Button {
                     print("assist pressed")
                 } label: {
-                    Label("CommandAssist3", systemImage: "waveform.badge.microphone")
+                    Label("CommandAssist", systemImage: "apple.intelligence")
                 }
                 .buttonStyle(.borderedProminent)
                 
                 // Separator
-                Rectangle()
-                    .fill(Color.gray.opacity(0.3))
-                    .frame(width: 1, height: 24)
+                Divider()
+                    .frame(height: 24)
                 
-                // New Event button
-                Button(action: {
-                    // New Event action
-                }) {
-                    HStack(spacing: 4) {
-                        Image(systemName: "plus")
-                            .font(.system(size: 12, weight: .medium))
-                        Text("New Event")
-                            .font(.system(size: 14, weight: .medium))
+                HStack(spacing: 8) {
+                    // New Event button
+                    Button {
+                        print("new event pressed")
+                    } label: {
+                        Label("New Event", systemImage: "plus")
                     }
-                    .foregroundColor(.primary)
-                    .padding(.horizontal, 12)
-                    .padding(.vertical, 8)
-                    .background(Color.white.opacity(0.9))
-                    .clipShape(Capsule())
-                }
-                
-                // Search button
-                Button(action: {
-                    // Search action
-                }) {
-                    Image(systemName: "magnifyingglass")
-                        .font(.system(size: 14, weight: .medium))
-                        .foregroundColor(.primary)
-                        .padding(8)
-                        .background(Color.white.opacity(0.9))
-                        .clipShape(Circle())
+                    .buttonStyle(.bordered)
+                    
+                    // Search button
+                    Button {
+                        print("search pressed")
+                    } label: {
+                        Image(systemName: "magnifyingglass")
+                    }
+                    .buttonStyle(.bordered)
+                    .buttonBorderShape(.circle)
                 }
             }
         }
-        .padding(.horizontal, 20)
-        .padding(.vertical, 12)
+        .padding(.horizontal, 24)
+        .padding(.bottom, 14)
+        .padding(.top, 0)
+        .overlay(
+            Rectangle()
+                .frame(height: 1, alignment: .bottom) // Adjust height for border thickness, alignment for desired side
+                .foregroundColor(.gray.opacity(0.5)),
+            alignment: .bottom // Adjust alignment for desired side (e.g., .top, .leading, .trailing)
+        )
     }
 }

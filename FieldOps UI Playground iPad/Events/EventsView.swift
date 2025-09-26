@@ -31,119 +31,16 @@ struct EventsView: View {
                     }
                 }
             }
-            .safeAreaPadding(.top, 50)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Picker("Event Type?", selection: $eventType) {
-                        Text("Planned Events").tag(0)
-                        Text("Unplanned Events").tag(1)
-                    }
-                    .pickerStyle(.segmented)
-                    .fixedSize()
-                }
-                
-                
-                ToolbarSpacer(.flexible)
-
-                ToolbarItem {
-                    Button {
-                        // do something
-                    } label: {
-                        Text("CommandAssist")
-//                        Label {
-//                            Text("CommandAssist")
-//                        } icon: {
-//                            Image(systemName: "waveform.badge.microphone")
-//                        }
-                    }
-                    .buttonStyle(.glassProminent)
-                }
-
-                ToolbarSpacer(.fixed)
-                
-                ToolbarItemGroup {
-                    Button {
-                        // do something
-                    } label: {
-                        Image(systemName: "eraser.badge.xmark")
-                    }
-
-                    Button {
-                        // do something
-                    } label: {
-                        Image(systemName: "tray.badge")
-                    }
-                }
-                
-                ToolbarSpacer(.fixed)
-            
-                ToolbarItem {
-                    Button {
-                        // do something
-                    } label: {
-                        Image(systemName: "1.calendar")
-                    }
-                }
-                
-                ToolbarItem(placement: .automatic) {
-                    Button {
-                        // do something
-                    } label: {
-                        Image(systemName: "plus")
-                    }
-                }
-            }
+            .padding(.top, 150) // control the position of the list from the top of the screen
+            .ignoresSafeArea(edges: .top)
             .safeAreaInset(edge: .top, spacing: 0) {
-                HStack {
-                    Button {
-                        // do something
-                    } label: {
-                        Image(systemName: "plus")
-                    }
-//                    .buttonBorderShape(.capsule)
-                    .buttonStyle(.glassProminent)
-                }
-                .frame(height: 60)
-                .frame(maxWidth: .infinity)
-//                .background(.bar)
+                HeaderView(selectedSegment: $eventType, segments: ["Planned Events", "Unplanned Events"])
+                    .padding(.top, 89) // control the position of the header buttons from the top
+                    .background(.ultraThinMaterial, in: .rect)
+//                    .glassEffect(in: .rect)
+                    .ignoresSafeArea(edges: .top) // Extend background to top of screen
             }
-            .scrollEdgeEffectStyle(.soft, for: .top)
-            
-            
         }
-        .safeAreaInset(edge: .top) {
-            VStack(alignment: .leading, spacing: 8) {
-                HStack() {
-                    Button {
-                        //do something
-                    } label: {
-                        Image(systemName: "chevron.backward")
-                    }
-                    .buttonBorderShape(.capsule)
-                    .buttonStyle(.bordered)
-
-                    Spacer()
-                        Text("hello")
-                    Spacer()
-                    
-                }
-               HStack {
-                     Button("Button") { }
-//                       .buttonBorderShape(.capsule)
-                       .buttonStyle(.bordered)
-                     Button("Button") { }
-//                       .buttonBorderShape(.capsule)
-                       .buttonStyle(.bordered)
-                     Button("Button") { }
-//                       .buttonBorderShape(.capsule)
-                       .buttonStyle(.bordered)
-                     Spacer()
-                   }
-            }
-            .padding()
-            .scrollEdgeEffectStyle(.hard, for: .top)
-        }
-        
     }
 }
 
