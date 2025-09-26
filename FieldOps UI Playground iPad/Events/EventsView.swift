@@ -20,21 +20,25 @@ struct EventsView: View {
                             Button {
                                 // do something
                             } label: {
-                                Text("\(event.name)")
-//                                EventRowContainer(event: event, index: index, count: section.group.count)
+//                                Text("\(event.name)")
+                                EventRowContainer(event: event, index: index, count: section.group.count)
                             }
-//                            .buttonStyle(.plain)
-//                            .listRowInsets(EdgeInsets())
-//                            .listRowBackground(Color.clear)
-//                            .listRowSeparator(.hidden)
+                            .buttonStyle(.plain)
+                            .listRowInsets(EdgeInsets())
+                            .listRowBackground(Color.clear)
+                            .listRowSeparator(.hidden)
                         }
+                        .listRowBackground(Color(.tertiarySystemFill))
                     }
                 }
             }
-            .padding(.top, 150) // control the position of the list from the top of the screen
+            .scrollContentBackground(.hidden)
+            .background(Color.clear)
+            .padding(.top, 145) // control the position of the list from the top of the screen
+            .padding(.horizontal, 4)
             .ignoresSafeArea(edges: .top)
             .safeAreaInset(edge: .top, spacing: 0) {
-                HeaderView(selectedSegment: $eventType, segments: ["Planned Events", "Unplanned Events"])
+                EventsHeaderView(selectedSegment: $eventType, segments: ["Planned Events", "Unplanned Events"])
                     .padding(.top, 89) // control the position of the header buttons from the top
                     .background(.ultraThinMaterial, in: .rect)
 //                    .glassEffect(in: .rect)

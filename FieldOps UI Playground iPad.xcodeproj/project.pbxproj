@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39107FC12E87297A00DE4A61 /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39107FC02E87297A00DE4A61 /* RoundedCornerShape.swift */; };
+		39107FC32E87297F00DE4A61 /* RoundedLeftCornersShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39107FC22E87297F00DE4A61 /* RoundedLeftCornersShape.swift */; };
+		39107FC52E8729B500DE4A61 /* EventRowContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39107FC42E8729B500DE4A61 /* EventRowContainer.swift */; };
+		39107FC72E8729BA00DE4A61 /* EventRowContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39107FC62E8729BA00DE4A61 /* EventRowContentView.swift */; };
 		395118072E7F37240002CE6A /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395118062E7F37240002CE6A /* LibraryView.swift */; };
-		395118092E7F372D0002CE6A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395118082E7F372D0002CE6A /* HeaderView.swift */; };
+		395118092E7F372D0002CE6A /* EventsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395118082E7F372D0002CE6A /* EventsHeaderView.swift */; };
 		3951180B2E7F37370002CE6A /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3951180A2E7F37370002CE6A /* SidebarView.swift */; };
 		3951180D2E7F373D0002CE6A /* LocationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3951180C2E7F373D0002CE6A /* LocationRow.swift */; };
 		3951180F2E7F37410002CE6A /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3951180E2E7F37410002CE6A /* MapAnnotationView.swift */; };
@@ -40,8 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39107FC02E87297A00DE4A61 /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
+		39107FC22E87297F00DE4A61 /* RoundedLeftCornersShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLeftCornersShape.swift; sourceTree = "<group>"; };
+		39107FC42E8729B500DE4A61 /* EventRowContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowContainer.swift; sourceTree = "<group>"; };
+		39107FC62E8729BA00DE4A61 /* EventRowContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowContentView.swift; sourceTree = "<group>"; };
 		395118062E7F37240002CE6A /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
-		395118082E7F372D0002CE6A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		395118082E7F372D0002CE6A /* EventsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsHeaderView.swift; sourceTree = "<group>"; };
 		3951180A2E7F37370002CE6A /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		3951180C2E7F373D0002CE6A /* LocationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRow.swift; sourceTree = "<group>"; };
 		3951180E2E7F37410002CE6A /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
@@ -96,10 +104,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39107FBF2E87296900DE4A61 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				39107FC02E87297A00DE4A61 /* RoundedCornerShape.swift */,
+				39107FC22E87297F00DE4A61 /* RoundedLeftCornersShape.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		398FB98E2E84324800E6BC68 /* Events */ = {
 			isa = PBXGroup;
 			children = (
 				398FB98F2E84326600E6BC68 /* EventsView.swift */,
+				395118082E7F372D0002CE6A /* EventsHeaderView.swift */,
+				39107FC42E8729B500DE4A61 /* EventRowContainer.swift */,
+				39107FC62E8729BA00DE4A61 /* EventRowContentView.swift */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -143,10 +163,10 @@
 				39D93CF32E7B578500646477 /* ContentView.swift */,
 				398FB98E2E84324800E6BC68 /* Events */,
 				395118062E7F37240002CE6A /* LibraryView.swift */,
-				395118082E7F372D0002CE6A /* HeaderView.swift */,
 				3951180A2E7F37370002CE6A /* SidebarView.swift */,
 				3951180C2E7F373D0002CE6A /* LocationRow.swift */,
 				3951180E2E7F37410002CE6A /* MapAnnotationView.swift */,
+				39107FBF2E87296900DE4A61 /* Support */,
 				398FB9922E84368900E6BC68 /* Data */,
 			);
 			path = "FieldOps UI Playground iPad";
@@ -297,15 +317,19 @@
 			files = (
 				398FB99A2E84370F00E6BC68 /* AssignmentModels.swift in Sources */,
 				39D93CF62E7B578500646477 /* ContentView.swift in Sources */,
+				39107FC12E87297A00DE4A61 /* RoundedCornerShape.swift in Sources */,
 				395118072E7F37240002CE6A /* LibraryView.swift in Sources */,
 				398FB9942E8436B900E6BC68 /* ModelData.swift in Sources */,
 				3951180B2E7F37370002CE6A /* SidebarView.swift in Sources */,
 				398FB9982E8436F300E6BC68 /* Event.swift in Sources */,
 				398FB9902E84326600E6BC68 /* EventsView.swift in Sources */,
 				39D93CF72E7B578500646477 /* FieldOps_UI_Playground_iPadApp.swift in Sources */,
-				395118092E7F372D0002CE6A /* HeaderView.swift in Sources */,
+				395118092E7F372D0002CE6A /* EventsHeaderView.swift in Sources */,
 				3951180D2E7F373D0002CE6A /* LocationRow.swift in Sources */,
 				3951180F2E7F37410002CE6A /* MapAnnotationView.swift in Sources */,
+				39107FC32E87297F00DE4A61 /* RoundedLeftCornersShape.swift in Sources */,
+				39107FC72E8729BA00DE4A61 /* EventRowContentView.swift in Sources */,
+				39107FC52E8729B500DE4A61 /* EventRowContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

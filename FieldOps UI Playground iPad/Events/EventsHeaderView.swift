@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HeaderView: View {
+struct EventsHeaderView: View {
     @Binding var selectedSegment: Int
     let segments: [String]
     
@@ -49,6 +49,8 @@ struct HeaderView: View {
                         Label("New Event", systemImage: "plus")
                     }
                     .buttonStyle(.bordered)
+                    .background(Color.secondary)
+                    .clipShape(Capsule())
                     
                     // Search button
                     Button {
@@ -57,7 +59,8 @@ struct HeaderView: View {
                         Image(systemName: "magnifyingglass")
                     }
                     .buttonStyle(.bordered)
-                    .buttonBorderShape(.circle)
+                    .background(Color.secondary)
+                    .clipShape(Circle())
                 }
             }
         }
